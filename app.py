@@ -10,7 +10,7 @@ from matplotlib.backends.backend_agg import RendererAgg
 @st.cache
 def get_data_deputies():
      #return pd.read_csv(os.path.join(os.getcwd(),'df_dep.csv'))
-    return pd.read_csv(df_dep.csv')
+    return pd.read_csv('df_dep.csv')
 @st.cache
 def get_data_political_parties():
      #return pd.read_csv(os.path.join(os.getcwd(),'df_polpar.csv'))
